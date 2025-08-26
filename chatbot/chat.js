@@ -38,7 +38,7 @@ function iniciar(client) {
     else {
       client.sendText(
         message.from,
-        "🤖 Olá! Essa é uma mensagem automática. Digite *menu* para ver as opções."
+        "🤖 Olá! Essa é uma mensagem automática.\n Bem-vindo(a) ao chat da Serbran, digite *menu* para ver as opções disponíveis."
       );
     }
   });
