@@ -13,9 +13,8 @@ function iniciar(client) {
         "📋 *Menu de Atendimento*\n\n" +
         "1️⃣ - Falar com *Compras*\n" +
         "2️⃣ - Ver *Catálogo*\n" +
-        "3️⃣ - *Horários* de atendimento\n" +
-        "4️⃣ - Falar com *Sérgio*\n" +
-        "5️⃣ - *Sair*"
+        "3️⃣ - *Horários* de atendimento\n" 
+        "4️⃣ - *Sair*"
       );
     }
 
@@ -29,13 +28,10 @@ function iniciar(client) {
       
     } 
     else if (texto === "3") {
-      client.sendText(message.from, "🕗 Nosso horário de atendimento é das 8h às 16h30, de segunda a quinta e 8h às 15h30 às sextas.");
+      client.sendText(message.from, "🕗 Nosso horário de atendimento é das 8h às 17h00 de segunda à sexta.");
     } 
+ 
     else if (texto === "4") {
-      client.sendText(message.from, "👨‍💼 Você será transferido para falar com *Sérgio*. Aguarde...");
-      
-    } 
-    else if (texto === "5") {
       client.sendText(message.from, "✅ Obrigado pelo contato! Até mais 👋");
     } 
 
