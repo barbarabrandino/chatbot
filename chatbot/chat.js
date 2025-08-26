@@ -32,7 +32,7 @@ function iniciar(client) {
     } 
  
     else if (texto === "4") {
-      client.sendText(message.from, "✅ Obrigado pelo contato! Até mais 👋");
+      client.sendText(message.from, "✅ Obrigado pelo contato, a Sebran agradece! Até mais 👋");
     } 
 
     else {
